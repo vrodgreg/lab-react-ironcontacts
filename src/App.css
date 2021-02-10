@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +36,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  width: 50px;
+}
+
+table, th, td {
+  margin: auto;
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 65%;
+  text-align: center;
+  padding: 10px;
+}
+
+td {
+  font-size: 1.5em;
+}
+
+#mainDiv {
+  text-align: center;
+}
+
+button {
+  font-size: 1.25em;
+  margin: 10px;
 }
